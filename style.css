@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+#container1,
+#container2,
+#container3 {
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+}
+
+#container1 {
+  background: url(roma.jpg);
+}
+
+#container2 {
+  background: url(shanghai.jpg);
+}
+
+#container3 {
+  background: url(newyork.jpeg);
+}
+
+#layover {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(43,43,43,0.3);
+}
+
+#layover > div.titolo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 100px;
+}
